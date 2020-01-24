@@ -10,7 +10,7 @@
     <title>Добавить нового пользователя</title>
 </head>
 <body>
-    <form action = "/showClient.jsp" method="post";>
+    <form action = "/clients" method="post";>
         <input required type="text" name="fullName" placeholder="Имя">
         <input required type="text" name="phoneNumber" placeholder="Телефон">
         <input type="submit" value="Сохранить">
