@@ -1,8 +1,7 @@
 package ru.vsu.touristagency.services;
 
-import ru.vsu.touristagency.domain.Client;
+
 import ru.vsu.touristagency.domain.Tourlist;
-import ru.vsu.touristagency.persistance.ClientRepository;
 import ru.vsu.touristagency.persistance.TourlistRepository;
 
 import java.util.Date;

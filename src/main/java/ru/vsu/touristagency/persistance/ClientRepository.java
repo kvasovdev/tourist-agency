@@ -17,7 +17,7 @@ public class ClientRepository implements IRepository<Client> {
         } catch (ClassNotFoundException e) {
             System.out.println("Driver class not found" + e.getMessage());
         }
-        //createTable();
+        createTable();
     }
 
 

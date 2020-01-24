@@ -17,7 +17,7 @@ public class TourlistRepository implements IRepository<Tourlist> {
         } catch (ClassNotFoundException e) {
             System.out.println("Driver class not found" + e.getMessage());
         }
-        //createTable();
+        createTable();
     }
 
 
